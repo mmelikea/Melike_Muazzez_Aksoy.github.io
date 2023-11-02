@@ -1,0 +1,29 @@
+---
+title: "Photography"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+<img src="images/CA.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/CA1.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/CA2.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/CA3.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/CA4.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/CA5.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/NYC1.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/SF.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/SF2.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/UNIVERSAL FL1.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/UT1.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/UT2.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/UT3.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/WA1.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/WA2.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/WA3.JPG" alt="logo" style="width:85%; border:10px solid">
+
+
+
+
+

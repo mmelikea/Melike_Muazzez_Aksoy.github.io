@@ -1,0 +1,28 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Photos"
+      href: photos.html
+    - text: "Plots"
+      href: plots.html
+    - text: "Dashboard"
+      href: dashboard.html 
+    - icon: fa-envelope fa-lg
+      href: mailto:<mma2277@cumc.columbia.edu>
+    - icon: fa-solid fa-link
+      href: linkto:<https://www.linkedin.com/in/muazzezmelike-aksoy>
+    - icon: fa-github fa-lg
+      href: http://github.com/mmelikea/
+    - icon: fa-solid fa-camera-retro
+      href: 
+output:
+  html_document:
+    theme: cerulean

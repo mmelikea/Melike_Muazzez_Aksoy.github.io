@@ -1,0 +1,22 @@
+---
+title: "Melike Aksoy"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+
+## **Intro**
+
+My name is Melike Aksoy. I am 2nd year Master of Public Health student in Columbia Mailman School of Public Health. My department is Biostatistics and my certificate is Advanced Epidemiology.
+
+I like reading, photography, traveling, hiking, coloring, listening to music. I have four cats! 
+
+
+Here are the pictures of my cats!
+
+
+<img src="images/DSCF1834.JPG" alt="logo" style="width:85%; border:10px solid">
+<img src="images/IMG_5782 Small.jpeg" alt="logo" style="width:85%; border:10px solid">
