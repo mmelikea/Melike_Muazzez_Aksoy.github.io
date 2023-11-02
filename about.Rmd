@@ -4,6 +4,27 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: flatly
 ---
+
+
+## **Schools** 
+- Columbia University Mailman School of Public Health, MPH, Biostatistics
+- Montclair State University, BA, Psychology
+
+## **Research Experience**
+- Columbia University Medical Center, Department of Neurology, Student Research Worker
+- Nathan Kline Institute for Psychiatric Research, Social Solutions and Services Research, Research Support Assistant 
+- Nathan Kline Institute for Psychiatric Research, Center for Biomedical Imaging and Neuromodulation (C-BIN), Intern
+
+## **Skills**
+- SAS, R, SPSS, Stata
+
+## **Academic Projects**
+- Columbia University, Mailman School of Public Health, Statistical Computing with SAS (course) Spring 2023, Longitudinal Study Comparing the Effectiveness of Laparoscopic adjustable gastric banding (LAGB), Roux-en-Y gastric bypass (RYGB), non-surgical methods on weight loss with covariates gender, alcohol use, diabetes, and hypertension.
+
+
+
+
+
 

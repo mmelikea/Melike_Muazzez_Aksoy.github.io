@@ -4,19 +4,21 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: flatly
 ---
 
 
-## **Intro**
 
-My name is Melike Aksoy. I am 2nd year Master of Public Health student in Columbia Mailman School of Public Health. My department is Biostatistics and my certificate is Advanced Epidemiology.
+<img src="images/DSCF2144.JPG" alt="logo" style="width:85%; border:10px solid">
 
-I like reading, photography, traveling, hiking, coloring, listening to music. I have four cats! 
+Hello! 
+
+My name is Muazzez Melike Aksoy. I am 2nd year Master of Public Health student in Columbia Mailman School of Public Health. My department is Biostatistics and my certificate is Advanced Epidemiology.
+
+I am both a graduate student and a research assistant. My former research experiences include areas in health disparities, social determinants of health, socioeconomic disadvantage, and discrimination. I am currently working as a research assistant in Department of Neurology at Columbia Medical Center on a research about sedentary behaviors, physical activity, social determinants of health and Alzheimer's disease risk. In all of my research experiences, I worked with longitudinal data.
+
+I like reading, photography, traveling, hiking, coloring, listening to music. I have four cats! Here are the pictures of my cats! Here is a link to see my travel pictures [Photos](https://Melike_Muazzez_Aksoy.com)
+<img src="images/leo-tina Medium.jpeg" alt="logo" style="width:85%; border:10px">
+<img src="images/IMG_2099 Medium.jpeg" alt="logo" style="width:85%; border:10px">
 
 
-Here are the pictures of my cats!
-
-
-<img src="images/DSCF1834.JPG" alt="logo" style="width:85%; border:10px solid">
-<img src="images/IMG_5782 Small.jpeg" alt="logo" style="width:85%; border:10px solid">
