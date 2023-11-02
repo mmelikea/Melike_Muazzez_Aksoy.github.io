@@ -17,10 +17,9 @@ output:
 
 **My journey involves being both a graduate student and a research assistant. My prior research work has encompassed diverse areas such as health disparities, social determinants of health, socioeconomic disadvantage, and discrimination. Presently, I am engaged as a research assistant in the Department of Neurology at Columbia Medical Center, where I contribute to a study exploring the links between sedentary behaviors, physical activity, social determinants of health, and Alzheimer's disease. Throughout these experiences, I've had the privilege of working extensively with longitudinal data.**
 
-**Outside of academia and research, I have a range of passions. I enjoy immersing myself in books, capturing moments through photography, exploring new destinations through travel, embracing the great outdoors with hiking, finding relaxation in coloring, and losing myself in the world of music. I'm also the proud guardian of four charming feline companions. If you'd like to see some of my travel pictures, you can explore them here.[Photos](https://Melike_Muazzez_Aksoy.com)**
+**Outside of academia and research, I have a range of passions. I enjoy immersing myself in books, capturing moments through photography, exploring new destinations through travel, embracing the great outdoors with hiking, finding relaxation in coloring, and losing myself in the world of music. I'm also the proud guardian of four charming feline companions.**
 
 *Here's a glimpse of my cats:*
-
 
 
 <img src="images/leo-tina Medium.jpeg" alt="logo" style="width:85%; border:10px">

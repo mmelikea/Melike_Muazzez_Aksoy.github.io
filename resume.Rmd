@@ -8,7 +8,6 @@ output:
 ---
 
 
-<a href="https://melike_muazzez_aksoy.com/Resume/resume.pdf" target="_blank">Download Resume (PDF)</a>
-<a href="resume.pdf" target="_blank">Download Resume (PDF)</a>  
-<iframe src="RESUME M. Melike Aksoy.html" style="width:100%; height:600px;" frameborder="0"></iframe>
+
+<iframe src="RESUME_M. Melike Aksoy.html" style="width:100%; height:600px;" frameborder="0"></iframe>
 
