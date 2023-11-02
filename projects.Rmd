@@ -1,0 +1,15 @@
+---
+title: " Academic Projects"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+
+
+#### 1) Longitudinal Study Comparing the Effectiveness of Laparoscopic adjustable gastric banding (LAGB), Roux-en-Y gastric bypass (RYGB), non-surgical methods on weight loss with covariates gender, alcohol use, diabetes, and hypertension
+Columbia University, Mailman School of Public Health, Statistical Computing with SAS (course) Spring 2023
+
+<a href="https://acrobat.adobe.com/id/urn:aaid:sc:US:06767582-d74b-4d1c-a897-af2c4db1d459" target="_blank">Download Project</a>
