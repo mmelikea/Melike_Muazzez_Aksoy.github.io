@@ -19,8 +19,6 @@ navbar:
       href: https://www.linkedin.com/in/muazzezmelike-aksoy
     - icon: fa-github fa-lg
       href: http://github.com/mmelikea/
-    - icon: fa-solid fa-camera-retro
-      href: 
 output:
   html_document:
     theme: flatly
