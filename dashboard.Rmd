@@ -1,39 +1,109 @@
 ---
-title: "Untitled"
+title: "Instacart Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
 ---
 
-```{r setup, include=FALSE}
+
+```{r setup, message=FALSE, echo=FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
+library(ggplot2)
+knitr::opts_chunk$set(
+    echo = TRUE,
+    warning = FALSE,
+    fig.width = 8, 
+  fig.height = 6,
+  out.width = "90%"
+)
+
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
+
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
 ```
 
-Column {data-width=650}
+
+```{r, message=FALSE, echo=FALSE}
+data("instacart") 
+
+instacart_filtered=
+  instacart|> 
+  filter(department=="produce"| department=="frozen" | department=="snacks" | department=="beverages")
+```
+
+
 -----------------------------------------------------------------------
 
-### Chart A
 
-```{r}
+```{r, echo=FALSE}
+boxplot_insta=
+  instacart_filtered |> 
+  ggplot(aes(x= department, y = order_dow, fill = department, colors = "viridis")) +
+  geom_boxplot() +
+  scale_fill_viridis_d(option = "mako") +
+  labs(title = "The day of the week on which the order was placed by department",
+       x = "Department",
+       y = "Day of the week") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
+ggplotly(boxplot_insta)
 ```
 
-Column {data-width=350}
+
 -----------------------------------------------------------------------
 
-### Chart B
+```{r, echo=FALSE, message=FALSE}
 
-```{r}
+instacart_filtered2=
+  instacart_filtered|> 
+  filter(department=="snacks")
 
+
+line_ggplot = 
+  instacart_filtered2 |> 
+  group_by(add_to_cart_order, aisle, department) |> 
+  summarize(frequency = n()) |> 
+  ggplot(aes(x = add_to_cart_order, y = frequency, color = aisle)) +
+  geom_line(alpha = 0.25)  +
+  scale_fill_viridis_c(option = "mako") +
+  labs(
+    title = "Frequency of Adding Snacks To The Cart",
+    x = "Add to cart order",
+    y = "Frequency"
+  )
+
+ggplotly(line_ggplot)
 ```
 
-### Chart C
 
-```{r}
+-----------------------------------------------------------------------
 
+```{r, echo=FALSE}
+bar_insta <- instacart_filtered |> 
+  select(order_hour_of_day, department) |> 
+  group_by(order_hour_of_day) |> 
+  summarize(frequency = n()) |> 
+  arrange(desc(frequency))
+
+bar_ggplot= ggplot(bar_insta, aes(x = order_hour_of_day, y = frequency, fill = order_hour_of_day )) +
+  geom_bar(stat = "identity") +
+  scale_fill_viridis_c(option = "mako") +
+    labs(title = "Frequency of order hours",
+      x = "Order Hour in one day",
+       y = "Frequency")
+  
+
+
+ggplotly(bar_ggplot)
 ```
 
